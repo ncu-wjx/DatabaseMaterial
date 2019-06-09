@@ -3,3 +3,4 @@ https://blog.csdn.net/rakish_wind/article/details/85028846
 	1.SELECT Cno,Ccredit FROM course WHERE Cname LIKE 'DB\_Design' ESCAPE '\';
 	应写成SELECT Cno,Ccredit FROM course WHERE Cname LIKE 'DB/_Design' ESCAPE '/';
 	2.test.sql文件中Course表外键设置存在问题
+	3.https://bbs.csdn.net/topics/392553768给出了一种外键设置解决方案
