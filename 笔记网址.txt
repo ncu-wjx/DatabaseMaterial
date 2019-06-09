@@ -1,0 +1,5 @@
+https://blog.csdn.net/rakish_wind/article/details/85028846
+注（Navicat for Mysql环境下）：
+	1.SELECT Cno,Ccredit FROM course WHERE Cname LIKE 'DB\_Design' ESCAPE '\';
+	应写成SELECT Cno,Ccredit FROM course WHERE Cname LIKE 'DB/_Design' ESCAPE '/';
+	2.test.sql文件中Course表外键设置存在问题
